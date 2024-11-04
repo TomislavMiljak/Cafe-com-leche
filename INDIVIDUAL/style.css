@@ -281,7 +281,7 @@ img {
     height: 120px;
     object-fit: cover;
     /* Crop or fit image to the box */
-    border: 2px solid #4a90e2;
+    border: 3px solid #4a90e2;
     border-radius: 8px;
 }
 
@@ -298,6 +298,9 @@ figcaption {
 
 /*REVIEW SECTION*/
 
+.reviews {
+    margin-bottom: 80px;
+}
 .reviews .container {
     background-color: #e5e7eb;
     margin-bottom: 32px;
@@ -314,12 +317,17 @@ figcaption {
 }
 
 .reviews p {
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
+    font-weight: 300;
     color: #1F2937;
     width: 800px;
-    padding-left: 110px;
+    padding-left: 90px;
 
+}
+.reviews p b {
+    margin-left: 620px;
+    margin-right: 50px;
 }
 
 
@@ -346,9 +354,10 @@ figcaption {
     margin: none;
     padding: 8px;
     text-align: center;
-    width: 50vw;
-    margin-left: 350px;
-    margin-bottom: 32px;
+    width: 61vw;
+    margin-left: 270px;
+    margin-right: 280px;
+    margin-bottom: 80px;
     color: white;
     border-radius: 5px;
 }
@@ -356,8 +365,8 @@ figcaption {
 
 
 #action button {
-    background-color: rgb(0, 119, 255);
-    color: antiquewhite;
+    background-color: #3882f6;
+    color: white;
     width: 8rem;
     height: 2rem;
     font-weight: 700;
@@ -366,7 +375,8 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 310px;
+    margin-left: 10px;
+    margin-right: 70px;
     border: 1px solid white;
     cursor: pointer;
 
@@ -376,14 +386,21 @@ figcaption {
     padding-left: 4rem;
     width: 40vw;
 }
+.call-to-action h4 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
 .call-to-action h5 {
     font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 
 /*CONTACTS SECTION*/
 
 .contacts {
+    margin-top: 70px; 
     padding: 60px;
     background-color: #3882f6;
     color: #E5E7EB;
@@ -446,10 +463,10 @@ figcaption {
     /* Space between the elements */
 }
 
-.footer-contact {
+/* .footer-contact {
     width: 98vw;
     margin-left: 0;
-}
+} */
 
 
 form input,
@@ -493,13 +510,15 @@ textarea {
 
 footer {
     background-color: #1f2937;
-    height: 50px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     width: 83%;
-    margin-left: 120px;
+    margin-top: 70px;
+    margin-left: 125px;
+    margin-bottom: 180px;
 
 
 }
