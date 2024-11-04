@@ -140,13 +140,19 @@ nav ul a {
 /*ABOUT PAGE*/
 
 /* Configurando a imagem de fundo do hero */
+/* .main-about {
+    width: 83vh;
+} */
 .hero {
     height: 100vh;
+    
     background-image: url('./images/pexels-rdne-4920856.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
+    /* margin-left: 110px;
+    margin-right: 110px; */
 
 }
 
@@ -215,7 +221,8 @@ nav ul a {
 }
 
 .footer-about {
-    width: 98vw;
+    /* width: 98vw; */
+    width: 83%;
     margin-left: 1px;
 }
 
@@ -405,7 +412,7 @@ figcaption {
 }
 
 .contacts {
-    margin-top: 70px; 
+    margin-top: -70px; 
     padding: 50px;
     background-color: #3882f6;
     color: #E5E7EB;
