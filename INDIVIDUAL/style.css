@@ -1,8 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
 .container {
     max-width: 1280px;
     /*Limite da largura em todos as telas*/
-    width: 100%;
-    margin: 0 auto;
+    width: 83%;
+    /* margin: 0 auto; */
+    /* margin-left: 100px; */
+    margin-left: 5rem;
+    /* margin-right: 14rem; */
 }
 
 
@@ -12,9 +23,11 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    position: fixed;
-    top: 0;
-    width: 99%;
+    /* position: fixed;
+    top: 5rem; */
+    width: 83%;
+    margin-top: 8rem;
+    margin-left: 8rem;
 
 
 }
@@ -34,6 +47,9 @@ header img {
 nav {
     display: flex;
     justify-content: space-between;
+    width: 83%;
+    gap: 29.5rem;
+    margin-left: 3.5rem;
 }
 
 nav ul {
@@ -54,40 +70,50 @@ nav ul a {
 
 .about {
     background-color: #1f2937;
-    height: calc(70vh + 10px);
-    padding: 100px;
+    height: calc(30vh + 10px);
+    padding-top: 40px;
+    padding-bottom: 130px;
+}
+.about {
+    width: 83%;
+    margin-left: 8rem;
+    margin-right: 15rem;
 }
 
-.about h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    font-family: "Roboto, sans-serif";
-
-}
 
 
 .about span {
     display: flex;
     color: white;
     gap: 24px;
-    text-align: center;
-
-
+    text-align: start;
+}
+.about span div {
+    width: 700px;
+    margin-left: 3rem;
 }
 
 .about span img {
-    width: 1168px;
-    height: 400px;
+    width: 750px;
+    height: 220px;
     margin-left: 50px;
     margin-top: 30px;
 
 }
+.about h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: "Roboto, sans-serif";
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 
+}
 .about p {
     text-align: start;
-
+    margin-top: 0;
     font-family: "Roboto, sans-serif";
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .about a {
@@ -95,6 +121,8 @@ nav ul a {
 }
 
 .about button {
+    display: flex;
+    justify-content: center;
     background-color: #3882f6;
     padding: 8px 16px;
     color: white;
@@ -112,13 +140,19 @@ nav ul a {
 /*ABOUT PAGE*/
 
 /* Configurando a imagem de fundo do hero */
+/* .main-about {
+    width: 83vh;
+} */
 .hero {
     height: 100vh;
+    
     background-image: url('./images/pexels-rdne-4920856.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
+    /* margin-left: 110px;
+    margin-right: 110px; */
 
 }
 
@@ -187,7 +221,8 @@ nav ul a {
 }
 
 .footer-about {
-    width: 98vw;
+    /* width: 98vw; */
+    width: 83%;
     margin-left: 1px;
 }
 
@@ -253,7 +288,7 @@ img {
     height: 120px;
     object-fit: cover;
     /* Crop or fit image to the box */
-    border: 2px solid #4a90e2;
+    border: 3px solid #4a90e2;
     border-radius: 8px;
 }
 
@@ -270,22 +305,40 @@ figcaption {
 
 /*REVIEW SECTION*/
 
+.reviews {
+    margin-bottom: 80px;
+}
 .reviews .container {
     background-color: #e5e7eb;
     margin-bottom: 32px;
-    padding: 16px;
+    margin-left: 130px;
+    padding-left: 150px;
+    /* padding-right: 200px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 73%;
 
+}
+.reviews .container div {
+    background-color:#E5E7EB;
 }
 
 .reviews p {
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
+    font-weight: 300;
     color: #1F2937;
+    width: 800px;
+    padding-left: 90px;
 
+}
+.reviews p b {
+    margin-left: 620px;
+    margin-right: 50px;
 }
 
 
-.reviews h2 {
+/* .reviews h2 {
     margin-bottom: 50px;
     text-align: center;
     font-size: 30px;
@@ -296,26 +349,31 @@ figcaption {
 
 .reviews h4 {
     text-align: center;
-}
+} */
 
 /*ACTION*/
 
 #action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin: none;
     padding: 8px;
     text-align: center;
-    width: 50vw;
-    margin-left: 350px;
-    margin-bottom: 32px;
+    width: 61vw;
+    margin-left: 270px;
+    margin-right: 280px;
+    margin-bottom: 80px;
     color: white;
-
+    border-radius: 5px;
 }
 
 
 
 #action button {
-    background-color: rgb(0, 119, 255);
-    color: antiquewhite;
+    background-color: #3882f6;
+    color: white;
     width: 8rem;
     height: 2rem;
     font-weight: 700;
@@ -324,20 +382,43 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 310px;
+    margin-left: 10px;
+    margin-right: 70px;
     border: 1px solid white;
+    cursor: pointer;
 
 }
-
+.call-to-action {
+    text-align: start;
+    padding-left: 4rem;
+    width: 40vw;
+}
+.call-to-action h4 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.call-to-action h5 {
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
 
 
 /*CONTACTS SECTION*/
 
+.contacts .container {
+    width: 88%;
+    margin-left: 35px;
+}
+
 .contacts {
-    padding: 60px;
+    margin-top: -70px; 
+    padding: 50px;
     background-color: #3882f6;
     color: #E5E7EB;
     text-align: center;
+    margin-left: 126px;
+    margin-right: 128px;
 
 
 }
@@ -373,6 +454,7 @@ figcaption {
 
 .contact-methods {
     margin-left: 200px;
+    width: 500px;
     font-family: "Roboto, sans-serif";
     font-weight: bold;
     background-color: #1f2937;
@@ -396,10 +478,10 @@ figcaption {
     /* Space between the elements */
 }
 
-.footer-contact {
+/* .footer-contact {
     width: 98vw;
     margin-left: 0;
-}
+} */
 
 
 form input,
@@ -426,7 +508,7 @@ textarea {
     background-color: #1f2937;
     padding: 16px;
     border-radius: 8px;
-    margin-left: 150px;
+    margin-left: 60px;
 
 }
 
@@ -443,13 +525,15 @@ textarea {
 
 footer {
     background-color: #1f2937;
-    height: 50px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    width: 87%;
-    margin-left: 100px;
+    width: 83%;
+    margin-top: 70px;
+    margin-left: 125px;
+    margin-bottom: 180px;
 
 
 }
