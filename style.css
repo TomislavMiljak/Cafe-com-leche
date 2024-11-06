@@ -235,7 +235,7 @@ nav ul a {
 
 }
 
-.footer-about {
+.footer {
     width: 83%;
     margin-left: 128px;
     margin-right: 128px;
@@ -368,7 +368,7 @@ figcaption {
 
 /*ACTION*/
 
-#action {
+.action {
     background-color: #3882f6;
     display: flex;
     justify-content: space-around;
@@ -386,7 +386,7 @@ figcaption {
 
 
 
-#action button {
+.action button {
     background-color: #3882f6;
     color: white;
     width: 8rem;
@@ -590,6 +590,9 @@ footer {
       font-size: 20px;
       
     }
+    /* footer {
+        margin-left: 127px;
+    } */
   
   }
   @media (max-width: 1284px){
@@ -605,7 +608,10 @@ footer {
           
           gap: 24rem;
       }
-       
+      footer {
+        width: 90%;
+        /* margin-right: 127px; */
+    }
   }
 @media (max-width: 1224px){
     nav {
@@ -717,7 +723,9 @@ footer {
     .questions button {
         margin-left: 100px;
     }
-
+    footer {
+        margin-right: 127px;
+    }
 
 }
 @media (max-width: 970px){
@@ -733,26 +741,39 @@ footer {
     }
     .about span img {
         order: -1;
-        width: 300px;
-        height: 150px;
+        width: 90%;
+        height: auto;
     }
     .about span h1 {
         font-size: 25px;
     }
     .about span div {
-        width: 300px;
+        width: 90%;
+    }
+    .scroll-Container{
+        flex-direction: column;
     }
     .action {
         display: flex;
         flex-direction: column;
+        margin-left: 140px;
     }
-    .action {
-        margin-left: -10rem;
-    }
+    /* footer {
+      margin-right: 228px;
+    } */
+    
 }
 @media (max-width: 768px) {
+    header {
+        margin-left: 2rem;
+    }
+    main {
+        margin-left: 2rem;
+    }
+    
     nav {
         gap: 4rem;
+        margin-left: 2rem;
     }
    /*  header {
         width: 98%;
@@ -762,12 +783,17 @@ footer {
         padding: 100px 15px;
     }
  */
+    .about {
+        margin-left: 1rem;
+    }
     .about h1,
     .contacts h1 {
         font-size: 28px;
         padding: 16px;
     }
-
+    .about span div, .about span img {
+        margin-left: 1px;
+    }
     .questions,
     .questions button {
         width: 80%;
@@ -794,7 +820,21 @@ footer {
         text-align: center;
     }
 }
-
+@media (max-width: 600px){
+    
+    .about span div {
+        width: 90%;
+        margin-left: 1px;
+        margin-right: 200px;
+    }
+    .about span div p {
+        font-size: 16px;
+    }
+    .about button {
+        width: 100px;
+        
+    } 
+}
 
 /* Ajustes para telas de até 480px (smartphones) */
 @media (max-width: 480px) {
@@ -850,4 +890,4 @@ footer {
     }
 
 
-}
+} 
