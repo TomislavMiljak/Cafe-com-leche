@@ -53,6 +53,7 @@ nav {
 }
 
 nav ul {
+    max-width: 83%;
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -581,6 +582,10 @@ footer {
       gap: 10px;
     }
     .reviews .container {
+        width: 73%;
+        margin-right: 120px;
+        margin-left: 120px;
+        padding-right: 100px;
         padding-left: 10px;
         height: fit-content;
     } 
@@ -590,17 +595,29 @@ footer {
       font-size: 20px;
       
     }
-    /* footer {
-        margin-left: 127px;
-    } */
+    .action {
+        margin-left: 260px;
+        margin-right: 260px;
+    }
+    footer {
+        margin-right: 127px;
+    }
   
   }
   @media (max-width: 1284px){
+    .reviews .container {
+        width: 73%;
+        margin-right: 100px;
+        margin-left: 100px;
+        padding-right: 40px;
+        padding-left: 40px;
+        height: fit-content;
+    } 
     .reviews .container div p {
         display: flex;
         flex-wrap: wrap;
-        font-size: 15px;
-        width: 400px;
+        font-size: 20px;
+        width: 700px;
         height: fit-content;
         
       }
@@ -608,9 +625,13 @@ footer {
           
           gap: 24rem;
       }
+      .action {
+        margin-left: 220px;
+        margin-right: 220px;
+      }
       footer {
-        width: 90%;
-        /* margin-right: 127px; */
+        width: 80%;
+        margin-right: 127px;
     }
   }
 @media (max-width: 1224px){
@@ -618,6 +639,14 @@ footer {
         flex-direction: row;  
         gap: 16rem;
     }
+    .reviews .container {
+        width: 73%;
+        margin-right: 100px;
+        margin-left: 100px;
+        padding-right: 70px;
+        padding-left: 10px;
+        height: fit-content;
+    } 
 }
 @media (max-width: 1024px) {
     nav {
@@ -636,6 +665,9 @@ footer {
         height: fit-content;
         justify-content: center;
     }
+    .about span div p {
+        width: 80%;
+    }
     .about span div p, .about span div h1 {
         text-align: center;
     }
@@ -652,12 +684,12 @@ footer {
 
     header nav {
         padding: 16px;
-    }
+    } */
 
-    .about {
+   /*  .about {
         padding: 130px 20px;
 
-    }
+    } */
 
 
     .about h1 {
@@ -668,21 +700,32 @@ footer {
         flex-direction: column;
         gap: 16px;
     }
-
-    .about span img {
+    
+    /* .about span img {
         width: 100%;
         height: auto;
         margin: 0;
+    } */
+    .about span img {
+        order: -1;
+        width: 90%;
+        height: auto;
     }
- */
 
 
     /* .reviews {
 
         padding: 200px;
-    }
-
-    .reviews h2 {
+    } */
+    .reviews .container {
+        width: 63%;
+        margin-right: 90px;
+        margin-left: 90px;
+        padding-right: 100px;
+        padding-left: 10px;
+        height: fit-content;
+    } 
+    /* .reviews h2 {
 
         padding-right: 60px;
     } */
@@ -723,8 +766,14 @@ footer {
     .questions button {
         margin-left: 100px;
     }
+    .action {
+        margin-left: 170px;
+        margin-right: 170px;
+      }
     footer {
+        width: 80%;
         margin-right: 127px;
+        margin-left: 107px;
     }
 
 }
@@ -750,30 +799,60 @@ footer {
     .about span div {
         width: 90%;
     }
+    .info-section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     .scroll-Container{
         flex-direction: column;
     }
     .action {
         display: flex;
         flex-direction: column;
-        margin-left: 140px;
+        margin-left: 130px;
+        margin-right: 130px;
     }
-    /* footer {
-      margin-right: 228px;
-    } */
+    .reviews {
+        padding: 150px;
+    }
+    .reviews .container {
+        width: 80%;
+        /* margin-left: 10px; */
+        padding: 0px;
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 55px;
+        padding-bottom: 55px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
     
+    .reviews .container div p {
+        width: 900px;
+        padding-left: 25px;
+    }
+    
+    footer {
+        width: 78%;
+        margin-right: 20px;
+        margin-left: 100px;
+    }
 }
 @media (max-width: 768px) {
     header {
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     main {
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     
     nav {
         gap: 4rem;
-        margin-left: 2rem;
+        margin-left: 0rem;
+    }
+    nav img {
+        margin-top: 3rem;
     }
    /*  header {
         width: 98%;
@@ -784,7 +863,8 @@ footer {
     }
  */
     .about {
-        margin-left: 1rem;
+        margin-left: 0;
+        padding-right: 0.8rem;
     }
     .about h1,
     .contacts h1 {
@@ -803,7 +883,14 @@ footer {
     .info-section,
     .scroll-Container {
         flex-direction: column;
+        
+    }
+    .info-section {
         padding: 100px 20px;
+        margin-left: 0;
+    }
+    .scroll-Container {
+        margin-left: 0;
     }
 
     .container .questions {
@@ -819,13 +906,37 @@ footer {
         margin-left: 15px;
         text-align: center;
     }
+    .reviews {
+        margin-right: 50px;
+        padding: 100px;
+        text-align: center;
+    }
+    .reviews .container {
+        margin-right: 80px;
+        margin-left: 10px;
+    }
+    .reviews p b {
+        margin-left: 120px;
+        margin-right: 150px;
+    }
+    .action {
+        margin-left: 90px;
+        margin-right: 90px;
+      }
+    footer {
+        width: 75%;
+        margin-right: 97px;
+        margin-left: 80px;
+    }
 }
 @media (max-width: 600px){
-    
+    .container {
+        margin-left: 2rem;
+    }
     .about span div {
-        width: 90%;
+        width: 100%;
         margin-left: 1px;
-        margin-right: 200px;
+        margin-right: 190px;
     }
     .about span div p {
         font-size: 16px;
@@ -834,10 +945,31 @@ footer {
         width: 100px;
         
     } 
+    .reviews {
+        padding: 50px;
+        margin-left: 1px;
+        margin-right: 60px;
+    }
+    .reviews .container {
+        margin-left: 1px;
+    }
+    .action {
+        margin-left: 70px;
+        margin-right: 70px;
+      }
+    footer {
+        width: 78%;
+        margin-right: 67px;
+        margin-left: 60px;
+        padding-right: 10px;
+    }
 }
 
 /* Ajustes para telas de até 480px (smartphones) */
 @media (max-width: 480px) {
+    nav {
+        gap: 0.5rem;
+    }
     /* header {
         width: 400px;
     }
@@ -858,7 +990,7 @@ footer {
         width: 100%;
     }
  */
-
+    
     .reviews,
     .contacts {
         padding: 100px 20px;
@@ -888,6 +1020,27 @@ footer {
         padding-right: 100px;
         margin-right: 100px;
     }
-
+    .action {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+    footer {
+        width: 70%;
+        margin-right: 67px;
+        margin-left: 50px;
+        padding-right: 10px;
+    }
 
 } 
+@media (max-width: 400px){
+    .action {
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+    footer {
+        width: 80%;
+        margin-right: 67px;
+        margin-left: 20px;
+        padding-left: 10px;
+    }
+}
