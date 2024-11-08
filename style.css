@@ -575,7 +575,7 @@ footer {
       /* margin-left: 50px;
       justify-content: flex-start; */
       justify-content: flex-start;
-      gap: 25rem;
+      gap: 26rem;
     } 
     nav ul {
       flex-wrap: wrap;
@@ -604,7 +604,22 @@ footer {
     }
   
   }
+  @media (max-width: 1350px){
+    nav {
+        gap: 24rem;
+    }
+  }
   @media (max-width: 1284px){
+    header {
+        margin-left: 7rem;
+    }
+    nav {
+          
+        gap: 20rem;
+    }
+    .about {
+        margin-left: 7rem;
+    }
     .reviews .container {
         width: 73%;
         margin-right: 100px;
@@ -621,10 +636,7 @@ footer {
         height: fit-content;
         
       }
-      nav {
-          
-          gap: 24rem;
-      }
+      
       .action {
         margin-left: 220px;
         margin-right: 220px;
@@ -637,7 +649,7 @@ footer {
 @media (max-width: 1224px){
     nav {
         flex-direction: row;  
-        gap: 16rem;
+        gap: 19rem;
     }
     .reviews .container {
         width: 73%;
@@ -647,6 +659,25 @@ footer {
         padding-left: 10px;
         height: fit-content;
     } 
+}
+@media (max-width: 1170px){
+    nav {
+        flex-direction: row;  
+        gap: 17rem;
+    }
+}
+
+@media (max-width: 1124px){
+    header {
+        margin-left: 6rem;
+    }
+    nav {
+        flex-direction: row;  
+        gap: 15rem;
+    }
+    .about {
+        margin-left: 6rem;
+    }
 }
 @media (max-width: 1024px) {
     nav {
@@ -660,10 +691,12 @@ footer {
       }
     header {
         height: fit-content;
+        margin-left: 5rem;
     }
     .about {
         height: fit-content;
         justify-content: center;
+        margin-left: 5rem;
     }
     .about span div p {
         width: 80%;
@@ -931,14 +964,14 @@ footer {
 }
 @media (max-width: 600px){
     header {
-        margin-left: 27px;
+        margin-left: 51px;
     }
     .container {
         margin-left: 2rem;
     }
-    /* .about {
-        margin-left: 51px;
-    } */
+    .about {
+        margin-left: 35.5px;
+    }
     .about span div {
         width: 100%;
         /* margin-left: 51px;
