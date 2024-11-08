@@ -673,30 +673,39 @@ footer {
     }
     nav {
         flex-direction: row;  
-        gap: 15rem;
+        gap: 14rem;
     }
     .about {
         margin-left: 6rem;
     }
 }
+
 @media (max-width: 1024px) {
+    header {
+        height: fit-content;
+        margin-left: 5rem;
+        
+    }
+    
     nav {
         flex-direction: row;  
         gap: 8rem;
+        margin-left: 1rem;
     }
     nav ul {
         flex-wrap: wrap;
         
         gap: 7px;
       }
-    header {
-        height: fit-content;
-        margin-left: 5rem;
-    }
+    
     .about {
         height: fit-content;
         justify-content: center;
         margin-left: 5rem;
+        
+    }
+    .about .container {
+        margin-left: 3rem;
     }
     .about span div p {
         width: 80%;
@@ -817,6 +826,9 @@ footer {
     }
     nav ul {
         flex-direction: column;
+    }
+    .about .container {
+        margin-left: 3rem;
     }
     .about span {
         flex-direction: column;
