@@ -353,20 +353,6 @@ figcaption {
     margin-right: 50px;
 }
 
-
-/* .reviews h2 {
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 800;
-    color: #1F2937;
-    font-family: "Roboto, sans-serif";
-}
-
-.reviews h4 {
-    text-align: center;
-} */
-
 /*ACTION*/
 
 .action {
@@ -428,7 +414,6 @@ figcaption {
 }
 
 .contacts {
-    /* margin-top: 70px;  */
     padding: 50px;
     background-color: #3882f6;
     color: #E5E7EB;
@@ -492,14 +477,7 @@ figcaption {
 .contacts .container {
     display: flex;
     gap: 20px;
-
-    /* Space between the elements */
 }
-
-/* .footer-contact {
-    width: 98vw;
-    margin-left: 0;
-} */
 
 
 form input,
