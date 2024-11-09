@@ -681,3 +681,23 @@ footer {
         margin-bottom: 0;
     }
 }
+
+@media (max-width: 390px){
+    .about .container {
+        margin-left: 22px;
+        margin-right: 10px;
+    }
+    .about button {
+        margin-left: 49px;
+        
+    }
+    .action {
+        margin-bottom: 10px;
+    }
+    .call-to-action {
+        margin-bottom: 0;
+    }
+    footer {
+        margin-top: 0;
+    }
+}
