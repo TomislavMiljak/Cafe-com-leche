@@ -622,7 +622,7 @@ footer {
         width: 63vw;
     }
     .sign-up {
-        width: 70.2%;
+        width: 70.4%;
         margin-left: 68px;
         padding: 50px;
         background-color: #3882f6;
@@ -652,6 +652,12 @@ footer {
     }
     footer {
         width: 67%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 801px){
+    .sign-up {
+        width: 70.2%;
     }
 }
 @media (max-width: 430px){
@@ -730,7 +736,7 @@ footer {
         padding-left: 2px;
     }
     .sign-up {
-        width: 100%;
+        width: 75.8%;
         margin-left: 0px;
         padding: 50px;
         background-color: #3882f6;
@@ -759,7 +765,14 @@ footer {
         margin-bottom: 0;
     }
 }
-
+@media (max-width: 415px){
+    .sign-up {
+        width: 74.8%;
+    }
+    .sign-up .container {
+        margin-left: 2px;
+    }
+}
 @media (max-width: 391px){
     .about .container {
         margin-left: 42px;
@@ -771,8 +784,21 @@ footer {
     .call-to-action {
         margin-bottom: 0;
     }
+    .sign-up {
+        width: 73.2%;
+        background-color: #3882f6;
+    }
+    .sign-up .container {
+        margin-left: -8px;
+        /* margin-right: 15px; */
+    }
     footer {
         margin-top: 0;
+    }
+}
+@media (max-width: 385px){
+    .sign-up {
+        width: 72.8%;
     }
 }
 @media (max-width: 377px){
@@ -786,4 +812,20 @@ footer {
    .about .container span button {
     margin-left: 80px;
    }
+   .sign-up {
+    width: 72.2%;
+    background-color: #3882f6;
+   }
+   .sign-up .container {
+    margin-left: -15px;
+    /* margin-right: 15px; */
+   }
+}
+@media (max-width: 361px){
+    .sign-up {
+        width: 71%;
+    }
+    .sign-up .container {
+        margin-left: -22px;
+    }
 }
