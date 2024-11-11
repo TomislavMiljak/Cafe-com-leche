@@ -50,7 +50,7 @@ nav ul {
     max-width: 83%;
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 4px;
     list-style: none;
     margin-top: 50px;
     margin-right: -7.5rem;
@@ -603,6 +603,9 @@ footer {
         width: 100px;
         display: block;
         margin-left: 150px;
+    }
+    .hero {
+        
     }
     .info-section{
     margin-left: 1px;
