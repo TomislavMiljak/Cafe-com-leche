@@ -50,7 +50,7 @@ nav ul {
     max-width: 83%;
     display: flex;
     justify-content: center;
-    gap: 4px;
+    gap: 24px;
     list-style: none;
     margin-top: 50px;
     margin-right: -7.5rem;
@@ -327,10 +327,6 @@ figcaption {
     padding-left: 90px;
 
 }
-.reviews p b {
-    margin-left: 620px;
-    margin-right: 50px;
-}
 
 /*ACTION*/
 
@@ -572,6 +568,7 @@ footer {
         flex-direction: column;
         margin-right: -7.5rem;
         align-items: center;
+        gap: 5px;
     } 
     .about {
         margin-left: 68px;
@@ -605,24 +602,92 @@ footer {
         margin-left: 150px;
     }
     .hero {
-        
+        margin-left: 68px;    
+    }
+    .hero .container {
+        margin-top: 180px;
+        margin-left: 55px;
+    }
+    .locations {
+        width: 70.5%;
+        margin-left: 67.4px; 
+    }
+    .locations .container {
+        width: 550px;
+        margin-left: 5px;
+    }
+    .locations .container img {
+        width: 100px;
+        height: 100px;
+    }
+    .locations .container div{
+        width: 130px;
+    }
+    .locations .container figure {
+        gap: 80px;
+    }
+    .locations .container figure div:nth-of-type(1){
+        margin-left: 0;
+    }
+    .locations .container figure div:nth-of-type(3){
+        margin-right: 0;
+    }
+    .locations .container figure div p {
+        font-size: 13px;
     }
     .info-section{
     margin-left: 1px;
     margin-right: 7px;
     }
+    .reviews {
+        width: 83%;
+        margin-bottom: 30px;
+    }
     .reviews .container {
-        width: 60%;
+        width: 92%;
         padding-left: 50px;
+        margin-left: 70px;
     }
     .reviews p {
         font-size: 18px;
         width: 50%;
         text-align: center;
+        padding-left: 125px;
     }
     .action {
-        margin-left: 130px;
-        width: 63vw;
+        margin-left: 185px;
+        width: 53vw;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+    .call-to-action h4 {
+        margin-top: 15px;
+    }
+    .call-to-action h5 {
+        margin-bottom: 15px;
+    }
+    .contacts {
+        width: 80.5%;
+        padding: 10px;
+        margin-left: 68px;
+        margin-right: 10px;
+    }
+    .contacts .container {
+        flex-direction: column;
+        width: 83%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contacts .container .questions {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacts .container .contact-methods {
+        margin-left: 30px;
     }
     .sign-up {
         width: 70.4%;
@@ -653,22 +718,34 @@ footer {
         color: white;
         font-weight: bold;
     }
-    footer {
-        width: 67%;
+    
+    footer, .footer-about {
+        width: 83%;
+        margin-top: 30px;
         margin-bottom: 10px;
+        margin-left: 67px;
     }
 }
 @media (max-width: 801px){
     .sign-up {
         width: 70.2%;
     }
+    .locations {
+        width: 70.3%;
+    }
+    .contacts {
+        width: 80.4%;
+    }
 }
 @media (max-width: 430px){
     header {
         margin-top: 0;
         margin-left: 0;
-        margin-right: 0;
-        width: 100%;
+        margin-right: 5px;
+        width: 96.2%;
+        top: 0;
+        position: fixed;
+        z-index: 1000;
         
     }
     nav {
@@ -677,12 +754,14 @@ footer {
         gap: 2rem;
     }
     nav ul {
-        margin-right: -3rem;
+        margin-top: 20px;
+        margin-right: -2rem;
     }
     .about {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
+        margin-top: 162px;
         height: fit-content;
     }
     .about .container {
@@ -702,6 +781,40 @@ footer {
     .about button {
         margin-left: 99px;
     }
+    .hero {
+        width: 100%;
+        margin-top: 162px;
+        margin-left: 0;
+    }
+    .hero .container {
+        margin-left: 34px;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+    .locations {
+        margin-left: 0;
+        width: 312px;
+    }
+    .locations .container {
+        width: 311px;
+        margin-left: 0;
+    }
+    .locations .container div, .locations .container figure div:nth-of-type(1) {
+        width: 220px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    .locations .container figure {
+        flex-direction: column;
+    }
+    .locations .container img {
+        width: 200px;
+        height: 200px;
+    }
+    .locations .container h2 {
+        text-align: center;
+    }
     .scroll-Container {
         flex-direction: column;
         margin-left: 0;
@@ -719,8 +832,12 @@ footer {
         padding-right: 0;
 
     }
+    .reviews p {
+        padding-left: 86px;
+        text-align: center;
+    }
     .action {
-        width: 96%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-left: 0;
@@ -728,7 +845,8 @@ footer {
     }
     .call-to-action {
         padding-left: 0;
-        padding-right: 15px;
+        padding-right: 0;
+        padding-bottom: 5px;
         text-align: center;
         width: 95%;
         margin-top: 5px;
@@ -736,11 +854,24 @@ footer {
     .action button {
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 10px;
         padding-left: 2px;
+    }
+    .contacts {
+        width: 95.1%;
+        margin-left: 0;
+    }
+    .contacts .container .contact-methods, .contacts .container .questions {
+        margin-left: 10px;
+        width: 300px;
+    }
+    .contacts .container .questions button {
+        margin-left: 55px;
     }
     .sign-up {
         width: 75.8%;
         margin-left: 0px;
+        margin-top: 162px;
         padding: 50px;
         background-color: #3882f6;
     }
@@ -752,19 +883,15 @@ footer {
     form button {
     display: block;
     width: 200px;
-    /* margin-bottom: 16px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    font-family: "Roboto, sans-serif";
-    font-size: 16px; */
-}
-    footer {
+    
+    }
+    footer, .footer-about {
         width: 100%;
         margin-left: 0;
         margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .footer-contact {
         margin-bottom: 0;
     }
 }
@@ -775,17 +902,51 @@ footer {
     .sign-up .container {
         margin-left: 2px;
     }
+    .locations {
+        width: 298px;
+    }
+    .locations .container div, .locations .container figure div:nth-of-type(1){
+        margin-left: 10px;
+    }
+    .contacts .container .contact-methods, .contacts .container .questions {
+        margin-left: 7px;
+        width: 300px;
+    }
 }
 @media (max-width: 391px){
+    header {
+        margin-right: 5px;
+        width: 96%;
+    }
     .about .container {
         margin-left: 42px;
         margin-right: 10px;
+    }
+   
+    .locations {
+        width: 274px;
+    }
+    .locations .container h2 {
+        margin-right: 20px;
+    }
+    .locations .container div, .locations .container figure div:nth-of-type(1){
+        margin-left: 0;
     }
     .action {
         margin-bottom: 10px;
     }
     .call-to-action {
         margin-bottom: 0;
+    }
+    .contacts {
+        width: 94.6%;
+    }
+    .contacts h1 {
+        visibility: hidden;
+    }
+    .contacts .container .contact-methods, .contacts .container .questions {
+        margin-left: 1px;
+        width: 285px;
     }
     .sign-up {
         width: 73.2%;
@@ -803,17 +964,44 @@ footer {
     .sign-up {
         width: 72.8%;
     }
+    .locations {
+        width: 268px;
+    }
 }
 @media (max-width: 377px){
+    header {
+        margin-right: 5px;
+        width: 95.8%;
+    }
     nav {
         margin-left: -15px;
     }
     
    .about .container span div h1 {
         margin-bottom: 5px;
-       }
+   }
    .about .container span button {
     margin-left: 80px;
+   }
+   .hero-content {
+    margin-top: 40px;
+    margin-bottom: 10px;
+   }
+   .locations {
+    width: 259px;
+   }
+   .locations .container h2 {
+    margin-right: 28px;
+   }
+   .locations .container div, .locations .container figure div:nth-of-type(1){
+    margin-left: -8px;
+   }
+   .contacts {
+    width: 94.4%;
+   }
+   .contacts .container .contact-methods, .contacts .container .questions {
+    margin-left: 1px;
+    width: 270px;
    }
    .sign-up {
     width: 72.2%;
@@ -825,10 +1013,31 @@ footer {
    }
 }
 @media (max-width: 361px){
+    header {
+        margin-right: 5px;
+        width: 95.6%;
+    }
+    .locations {
+        width: 244px;
+    }
+    .locations .container h2 {
+        margin-right: 49px;
+    }
+    .locations .container div, .locations .container figure div:nth-of-type(1){
+        margin-left: -16px;
+    }
+    .reviews {
+        width: 95.4%;
+    }
+    .contacts .container .contact-methods, .contacts .container .questions {
+        margin-left: 1px;
+        width: 256px;
+       }
     .sign-up {
         width: 71%;
     }
     .sign-up .container {
         margin-left: -22px;
     }
+
 }
