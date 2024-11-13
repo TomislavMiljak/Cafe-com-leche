@@ -391,25 +391,31 @@ footer {
 @media (max-width: 801px){
     /* reference for media queries on other pages */
 }
-@media (max-width: 430px){
+@media (max-width: 601px){
     header {
         margin-top: 0;
         margin-left: 0;
         margin-right: 5px;
-        width: 96.2%;
+        width: 97.3%;
+        height: 162px;
         top: 0;
         position: fixed;
         z-index: 1000;
-        
     }
     nav {
-        width: 100%;
-        margin-left: 0;
-        gap: 2rem;
+        gap: 8rem;
+        margin-top: 15px;
+        
+    }
+    nav img {
+        margin-top: 30px;
     }
     nav ul {
-        margin-top: 20px;
-        margin-right: -2rem;
+        flex-direction: column;
+        margin-right: -3.5rem;
+        align-items: center;
+        gap: 5px;
+        margin-top: 30px;
     }
     .about {
         width: 100%;
@@ -418,30 +424,37 @@ footer {
         margin-top: 162px;
         height: fit-content;
     }
-    .about .container {
-        margin-left: 52px;
+    .about span{
+        flex-direction: column;
+    }
+    .about span img {
+        order: -1;
+        width: 65%;
+        height: auto;
+    }
+    .about span h1 {
+        font-size: 30px;
+        text-align: center;
     }
     .about span div {
-        width: 90%;
-        margin-left: 0;
+        width: 65%;
     }
-    
-    .about span img {
-        width: 90%;
-        height: auto;
-        margin-left: 1px;
-        margin-top: 10px;
+    .about p {
+        font-size: 16px;
+        text-align: center;
     }
     .about button {
-        margin-left: 99px;
-    }
+        width: 100px;
+        display: block;
+        margin-left: 100px;
+    } 
     .scroll-Container {
         flex-direction: column;
         margin-left: 0;
         margin-right: 0;
-        }
+    }
     .reviews {
-        width: 96%;
+        width: 97%;
         margin-bottom: 10px;
     }
     .reviews .container {
@@ -453,7 +466,7 @@ footer {
 
     }
     .reviews p {
-        padding-left: 86px;
+        padding-left: 136px;
         text-align: center;
     }
     .action {
@@ -477,11 +490,55 @@ footer {
         margin-bottom: 10px;
         padding-left: 2px;
     }
+    footer {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 430px){
+    header { 
+        width: 96.2%;    
+    }
+    nav {
+        width: 100%;
+        margin-left: 0;
+        gap: 2rem;
+    }
+    nav ul {
+        margin-top: 20px;
+        margin-right: -2rem;
+    }
+    
+    .about .container {
+        margin-left: 52px;
+    }
+    .about span div {
+        width: 90%;
+        margin-left: 0;
+    }
+    
+    .about span img {
+        width: 90%;
+        height: auto;
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+    .about button {
+        margin-left: 99px;
+    }
+    .reviews {
+        width: 96%;
+    }
+    .reviews p {
+        padding-left: 86px;
+    }
     .contacts {
         width: 95.1%;
         margin-left: 0;
     }
-    footer, .footer-about, .footer-sign-up {
+    footer {
         width: 100%;
         margin-left: 0;
         margin-top: 10px;
@@ -492,7 +549,7 @@ footer {
 @media (max-width: 415px){
     /* reference for media queries on other pages */
 }
-@media (max-width: 391px){
+@media (max-width: 394px){
     header {
         margin-right: 5px;
         width: 96%;

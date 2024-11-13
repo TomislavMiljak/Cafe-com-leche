@@ -241,6 +241,65 @@ footer {
         width: 70.3%;
     }
 }
+@media (max-width: 601px){
+    header {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 5px;
+        width: 97.3%;
+        top: 0;
+        position: fixed;
+        z-index: 1000;
+        
+    }
+    nav {
+        width: 97%;
+        margin-left: 0;
+        gap: 2rem;
+    }
+    nav ul {
+        margin-top: 20px;
+        margin-right: -2rem;
+    }
+    .hero {
+        width: 100%;
+        margin-top: 162px;
+        margin-left: 0;
+    }
+    .locations {
+        margin-left: 0;
+        width: 82.9%;
+    }
+    .locations .container {
+        width: 311px;
+        margin-left: 0;
+    }
+    .locations .container div, .locations .container figure div:nth-of-type(1) {
+        width: 220px;
+        margin-left: 55px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .locations .container figure {
+        flex-direction: column;
+    }
+    .locations .container img {
+        width: 300px;
+        height: 300px;
+    }
+    .locations .container h2 {
+        margin-left: 179px;
+    }
+    .locations .container h3, .locations .container p {
+        margin-left: 75px;
+    }
+    footer, .footer-about, .footer-sign-up {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
 @media (max-width: 430px){
     header {
         margin-top: 0;
@@ -252,14 +311,17 @@ footer {
         z-index: 1000;
         
     }
+    
     nav {
         width: 100%;
         margin-left: 0;
-        gap: 2rem;
+        gap: 5rem;
     }
     nav ul {
         margin-top: 20px;
-        margin-right: -2rem;
+        
+
+        
     }
     .hero {
         width: 100%;
@@ -282,7 +344,7 @@ footer {
     }
     .locations .container div, .locations .container figure div:nth-of-type(1) {
         width: 220px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-bottom: 5px;
     }
     .locations .container figure {
@@ -293,7 +355,10 @@ footer {
         height: 200px;
     }
     .locations .container h2 {
-        text-align: center;
+        margin-left: 99px;
+    }
+    .locations .container h3, .locations .container p {
+        margin-left: 5px;
     }
     footer, .footer-about, .footer-sign-up {
         width: 100%;
@@ -304,25 +369,30 @@ footer {
     
 }
 @media (max-width: 415px){
+    .hero-content {
+        margin-bottom: 50px;
+    }
     .locations {
-        width: 298px;
+        width: 297px;
     }
     .locations .container div, .locations .container figure div:nth-of-type(1){
-        margin-left: 10px;
+        margin-left: 5px;
     }
-    .contacts .container .contact-methods, .contacts .container .questions {
-        margin-left: 7px;
-        width: 300px;
+    .locations .container h2 {
+        margin-left: 90px;
+    }
+    .locations .container h3, .locations .container p {
+        margin-left: 2px;
     }
 }
-@media (max-width: 391px){
+@media (max-width: 394px){
     header {
         margin-right: 5px;
         width: 96%;
     }
    
     .locations {
-        width: 274px;
+        width: 277px;
     }
     .locations .container h2 {
         margin-right: 20px;
@@ -356,31 +426,39 @@ footer {
    }
    .locations .container h2 {
     margin-right: 28px;
+    margin-left: 70px;
    }
    .locations .container div, .locations .container figure div:nth-of-type(1){
-    margin-left: -8px;
+    margin-left: -18px;
    }
-   .contacts {
-    width: 94.4%;
-   }
-   .contacts .container .contact-methods, .contacts .container .questions {
-    margin-left: 1px;
-    width: 270px;
-   }
+   .locations .container img {
+    width: 180px;
+    height: 180px;
 }
-@media (max-width: 361px){
+}
+@media (max-width: 362px){
     header {
         margin-right: 5px;
-        width: 95.6%;
+        width: 93.6%;
     }
+    nav {
+        margin-left: -33px;
+    }
+    .hero-content {
+        margin-top: 40px;
+        margin-bottom: 30px;
+       }
     .locations {
-        width: 244px;
+        width: 248px;
     }
     .locations .container h2 {
         margin-right: 49px;
+        margin-left: 60px;
     }
     .locations .container div, .locations .container figure div:nth-of-type(1){
-        margin-left: -16px;
+        margin-left: -12px;
     }
-
+    footer {
+        width: 93.6%;
+    }
 }
