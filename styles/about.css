@@ -195,37 +195,6 @@ footer {
         align-items: center;
         gap: 5px;
     } 
-    .about {
-        margin-left: 68px;
-        margin-right: 82px;
-        padding-top: 5px;
-        height: auto;
-
-    }
-    .about span{
-        flex-direction: column;
-    }
-    .about span img {
-        order: -1;
-        width: 75%;
-        height: auto;
-    }
-    .about span h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-    .about span div {
-        width: 75%;
-    }
-    .about p {
-        font-size: 16px;
-        text-align: center;
-    }
-    .about button {
-        width: 100px;
-        display: block;
-        margin-left: 150px;
-    }
     .hero {
         margin-left: 68px;    
     }
@@ -260,90 +229,6 @@ footer {
     .locations .container figure div p {
         font-size: 13px;
     }
-    .info-section{
-        margin-left: 1px;
-        margin-right: 7px;
-    }
-    .reviews {
-        width: 83%;
-        margin-bottom: 30px;
-    }
-    .reviews .container {
-        width: 92%;
-        padding-left: 50px;
-        margin-left: 70px;
-    }
-    .reviews p {
-        font-size: 18px;
-        width: 50%;
-        text-align: center;
-        padding-left: 125px;
-    }
-    .action {
-        margin-left: 185px;
-        width: 53vw;
-        margin-bottom: 5px;
-        padding: 0;
-    }
-    .call-to-action h4 {
-        margin-top: 15px;
-    }
-    .call-to-action h5 {
-        margin-bottom: 15px;
-    }
-    .contacts {
-        width: 80.5%;
-        padding: 10px;
-        margin-left: 68px;
-        margin-right: 10px;
-    }
-    .contacts .container {
-        flex-direction: column;
-        width: 83%;
-        padding: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .contacts .container .questions {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .contacts .container .contact-methods {
-        margin-left: 30px;
-    }
-    .sign-up {
-        width: 70.4%;
-        margin-left: 68px;
-        padding: 50px;
-        background-color: #3882f6;
-    }
-    .sign-up h1 {
-        margin-right: 15px;
-    }
-    .sign-up .container {
-        margin-left: 10px;
-    }
-    .sign-up-form {
-        background-color: #1f2937;
-        width: 500px;
-        color: #E5E7EB;
-        text-align: center;
-        margin-left: 0;
-        margin-right: 127px;
-        padding: 16px;
-        border-radius: 8px;
-        
-    
-    }.sign-up-form button {
-        margin-left: 1px;
-        background-color: #3882f6;
-        color: white;
-        font-weight: bold;
-    }
-    
     footer, .footer-about {
         width: 83%;
         margin-top: 30px;
@@ -352,14 +237,8 @@ footer {
     }
 }
 @media (max-width: 801px){
-    .sign-up {
-        width: 70.2%;
-    }
     .locations {
         width: 70.3%;
-    }
-    .contacts {
-        width: 80.4%;
     }
 }
 @media (max-width: 430px){
@@ -381,30 +260,6 @@ footer {
     nav ul {
         margin-top: 20px;
         margin-right: -2rem;
-    }
-    .about {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 162px;
-        height: fit-content;
-    }
-    .about .container {
-        margin-left: 52px;
-    }
-    .about span div {
-        width: 90%;
-        margin-left: 0;
-    }
-    
-    .about span img {
-        width: 90%;
-        height: auto;
-        margin-left: 1px;
-        margin-top: 10px;
-    }
-    .about button {
-        margin-left: 99px;
     }
     .hero {
         width: 100%;
@@ -440,76 +295,6 @@ footer {
     .locations .container h2 {
         text-align: center;
     }
-    .scroll-Container {
-        flex-direction: column;
-        margin-left: 0;
-        margin-right: 0;
-        }
-    .reviews {
-        width: 96%;
-        margin-bottom: 10px;
-    }
-    .reviews .container {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 16px;
-        padding-right: 0;
-
-    }
-    .reviews p {
-        padding-left: 86px;
-        text-align: center;
-    }
-    .action {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-left: 0;
-        margin-top: 5px;
-    }
-    .call-to-action {
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 5px;
-        text-align: center;
-        width: 95%;
-        margin-top: 5px;
-    }
-    .action button {
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 10px;
-        padding-left: 2px;
-    }
-    .contacts {
-        width: 95.1%;
-        margin-left: 0;
-    }
-    .contacts .container .contact-methods, .contacts .container .questions {
-        margin-left: 10px;
-        width: 300px;
-    }
-    .contacts .container .questions button {
-        margin-left: 55px;
-    }
-    .sign-up {
-        width: 75.8%;
-        margin-left: 0px;
-        margin-top: 162px;
-        padding: 50px;
-        background-color: #3882f6;
-    }
-    .sign-up-form {
-        width: 260px;
-    }
-    form input,
-    form textarea,
-    form button {
-    display: block;
-    width: 200px;
-    
-    }
     footer, .footer-about, .footer-sign-up {
         width: 100%;
         margin-left: 0;
@@ -519,12 +304,6 @@ footer {
     
 }
 @media (max-width: 415px){
-    .sign-up {
-        width: 74.8%;
-    }
-    .sign-up .container {
-        margin-left: 2px;
-    }
     .locations {
         width: 298px;
     }
@@ -541,10 +320,6 @@ footer {
         margin-right: 5px;
         width: 96%;
     }
-    .about .container {
-        margin-left: 42px;
-        margin-right: 10px;
-    }
    
     .locations {
         width: 274px;
@@ -555,38 +330,11 @@ footer {
     .locations .container div, .locations .container figure div:nth-of-type(1){
         margin-left: 0;
     }
-    .action {
-        margin-bottom: 10px;
-    }
-    .call-to-action {
-        margin-bottom: 0;
-    }
-    .contacts {
-        width: 94.6%;
-    }
-    .contacts h1 {
-        visibility: hidden;
-    }
-    .contacts .container .contact-methods, .contacts .container .questions {
-        margin-left: 1px;
-        width: 285px;
-    }
-    .sign-up {
-        width: 73.2%;
-        background-color: #3882f6;
-    }
-    .sign-up .container {
-        margin-left: -8px;
-        /* margin-right: 15px; */
-    }
     footer {
         margin-top: 0;
     }
 }
 @media (max-width: 385px){
-    .sign-up {
-        width: 72.8%;
-    }
     .locations {
         width: 268px;
     }
@@ -599,13 +347,6 @@ footer {
     nav {
         margin-left: -15px;
     }
-    
-   .about .container span div h1 {
-        margin-bottom: 5px;
-   }
-   .about .container span button {
-    margin-left: 80px;
-   }
    .hero-content {
     margin-top: 40px;
     margin-bottom: 10px;
@@ -626,14 +367,6 @@ footer {
     margin-left: 1px;
     width: 270px;
    }
-   .sign-up {
-    width: 72.2%;
-    background-color: #3882f6;
-   }
-   .sign-up .container {
-    margin-left: -15px;
-    /* margin-right: 15px; */
-   }
 }
 @media (max-width: 361px){
     header {
@@ -648,19 +381,6 @@ footer {
     }
     .locations .container div, .locations .container figure div:nth-of-type(1){
         margin-left: -16px;
-    }
-    .reviews {
-        width: 95.4%;
-    }
-    .contacts .container .contact-methods, .contacts .container .questions {
-        margin-left: 1px;
-        width: 256px;
-       }
-    .sign-up {
-        width: 71%;
-    }
-    .sign-up .container {
-        margin-left: -22px;
     }
 
 }

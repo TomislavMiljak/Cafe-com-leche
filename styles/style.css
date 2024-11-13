@@ -131,100 +131,6 @@ nav ul a {
 
 }
 
-/*ABOUT PAGE*/
-
-/* .hero {
-    height: 100vh;
-    width: 83%;
-    background-image: url('./images/pexels-rdne-4920856.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    margin-left: 128px;
-    margin-right: 128px;
-
-}
-
-.hero-content {
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 200px;
-}
-
-.hero-content p {
-    font-size: 20px
-}
-
-.hero-content h1 {
-    text-align: center;
-}
-
-.hero-header img {
-    height: 70px;
-    width: 70px;
-    margin-top: 30px;
-
-}
-
-
-.hero-content button {
-    border-radius: 20px;
-    padding: 16px;
-
-}
-
-.locations {
-    width: 76.3%;
-    padding: 50px;
-    background-color: #e5e7eb;
-    margin-left: 128px;
-    margin-right: 128px;
-}
-
-.locations a {
-    color: black;
-    text-decoration: none;
-}
-
-
-
-.locations .container figure {
-    gap: 50px;
-}
-.locations .container figure div:nth-of-type(1){
-    margin-left: 30px;
-}
-.locations .container figure div:nth-of-type(3){
-    margin-right: 110px;
-}
-
-
-.locations .container img {
-    height: 250px;
-    width: 250px;
-
-}
-
-.locations figure {
-    text-align: center;
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-
-}
-
-.footer {
-    width: 83%;
-    margin-left: 128px;
-    margin-right: 128px;
-}
-
- */
-
 /* INFO SECTION*/
 
 .info-section {
@@ -237,9 +143,6 @@ nav ul a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
-
 }
 
 .scroll-Container {
@@ -294,9 +197,6 @@ figcaption {
     margin-top: 10px;
     max-width: 120px;
 }
-
-
-
 
 
 /*REVIEW SECTION*/
@@ -380,158 +280,6 @@ figcaption {
     margin-bottom: 30px;
 }
 
-
-/*CONTACTS SECTION*/
-
-/* .contacts .container {
-    width: 88%;
-    margin-left: 35px;
-}
-
-.contacts {
-    padding: 50px;
-    background-color: #3882f6;
-    color: #E5E7EB;
-    text-align: center;
-    margin-left: 128px;
-    margin-right: 127px;
-
-
-}
-.contacts .questions {
-    margin-left: 70px;
-}
-.contacts h1 {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-family: "Roboto, sans-serif";
-    text-align: center;
-    padding: 32px;
-}
-
-.contacts h2 {
-    font-size: 36px;
-    color: #F9FAF8;
-    font-family: "Roboto, sans-serif";
-
-}
-
-.contacts button {
-    background-color: #3882f6;
-    padding: 12px;
-    width: 50%;
-}
-
-
-.contact-methods li {
-    display: inline-block;
-    padding-bottom: 16px;
-    font-size: 18px;
-
-}
-
-.contact-methods {
-    margin-left: 150px;
-    width: 500px;
-    font-family: "Roboto, sans-serif";
-    font-weight: bold;
-    background-color: #1f2937;
-    padding: 16px;
-    border-radius: 8px;
-    font-size: 20px;
-
-}
-
-
-.contact-methods img {
-    height: 30px;
-    width: 30px;
-    margin-right: 16px;
-}
-
-.contacts .container {
-    display: flex;
-    gap: 20px;
-}
-
-
-form input,
-form textarea,
-form button {
-    display: block;
-    width: 320px;
-    margin-bottom: 16px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    font-family: "Roboto, sans-serif";
-    font-size: 16px;
-}
-
-textarea {
-    height: 80px;
-
-}
-
-.questions {
-    background-color: #1f2937;
-    padding: 16px;
-    border-radius: 8px;
-    margin-left: 20px;
-
-}
-
-.questions button {
-    margin-left: 85px;
-    background-color: #3882f6;
-    color: white;
-    font-weight: bold;
-}
-.sign-up {
-    width: 76.35%;
-    margin-left: 128px;
-    padding: 50px;
-    background-color: #3882f6;
-}
-.sign-up h1 {
-    text-align: center;
-    margin-right: 30px;
-}
-.sign-up .container {
-    background-color: #3882f6;
-}
-.sign-up-form {
-    background-color: #1f2937;
-    color: #E5E7EB;
-    text-align: center;
-    margin-left: 128px;
-    margin-right: 127px;
-    padding: 16px;
-    border-radius: 8px;
-    
-
-}
-.sign-up-form form {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.sign-up-form button {
-    width: 200px;
-    margin-left: 5px;
-    background-color: #3882f6;
-    color: white;
-    font-weight: bold;
-}
-
-.social-media {
-    padding-right: 24px;
-} */
-
 footer {
     background-color: #1f2937;
     height: 80px;
@@ -601,40 +349,6 @@ footer {
         display: block;
         margin-left: 150px;
     }
-    .hero {
-        margin-left: 68px;    
-    }
-    .hero .container {
-        margin-top: 180px;
-        margin-left: 55px;
-    }
-    .locations {
-        width: 70.5%;
-        margin-left: 67.4px; 
-    }
-    .locations .container {
-        width: 550px;
-        margin-left: 5px;
-    }
-    .locations .container img {
-        width: 100px;
-        height: 100px;
-    }
-    .locations .container div{
-        width: 130px;
-    }
-    .locations .container figure {
-        gap: 80px;
-    }
-    .locations .container figure div:nth-of-type(1){
-        margin-left: 0;
-    }
-    .locations .container figure div:nth-of-type(3){
-        margin-right: 0;
-    }
-    .locations .container figure div p {
-        font-size: 13px;
-    }
     .info-section{
         margin-left: 1px;
         margin-right: 7px;
@@ -666,58 +380,6 @@ footer {
     .call-to-action h5 {
         margin-bottom: 15px;
     }
-    .contacts {
-        width: 80.5%;
-        padding: 10px;
-        margin-left: 68px;
-        margin-right: 10px;
-    }
-    .contacts .container {
-        flex-direction: column;
-        width: 83%;
-        padding: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .contacts .container .questions {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .contacts .container .contact-methods {
-        margin-left: 30px;
-    }
-    .sign-up {
-        width: 70.4%;
-        margin-left: 68px;
-        padding: 50px;
-        background-color: #3882f6;
-    }
-    .sign-up h1 {
-        margin-right: 15px;
-    }
-    .sign-up .container {
-        margin-left: 10px;
-    }
-    .sign-up-form {
-        background-color: #1f2937;
-        width: 500px;
-        color: #E5E7EB;
-        text-align: center;
-        margin-left: 0;
-        margin-right: 127px;
-        padding: 16px;
-        border-radius: 8px;
-        
-    
-    }.sign-up-form button {
-        margin-left: 1px;
-        background-color: #3882f6;
-        color: white;
-        font-weight: bold;
-    }
     
     footer, .footer-about {
         width: 83%;
@@ -727,15 +389,7 @@ footer {
     }
 }
 @media (max-width: 801px){
-    .sign-up {
-        width: 70.2%;
-    }
-    .locations {
-        width: 70.3%;
-    }
-    .contacts {
-        width: 80.4%;
-    }
+    /* reference for media queries on other pages */
 }
 @media (max-width: 430px){
     header {
@@ -780,40 +434,6 @@ footer {
     }
     .about button {
         margin-left: 99px;
-    }
-    .hero {
-        width: 100%;
-        margin-top: 162px;
-        margin-left: 0;
-    }
-    .hero .container {
-        margin-left: 34px;
-    }
-    .hero-content p {
-        font-size: 14px;
-    }
-    .locations {
-        margin-left: 0;
-        width: 312px;
-    }
-    .locations .container {
-        width: 311px;
-        margin-left: 0;
-    }
-    .locations .container div, .locations .container figure div:nth-of-type(1) {
-        width: 220px;
-        margin-left: 20px;
-        margin-bottom: 5px;
-    }
-    .locations .container figure {
-        flex-direction: column;
-    }
-    .locations .container img {
-        width: 200px;
-        height: 200px;
-    }
-    .locations .container h2 {
-        text-align: center;
     }
     .scroll-Container {
         flex-direction: column;
@@ -861,30 +481,6 @@ footer {
         width: 95.1%;
         margin-left: 0;
     }
-    .contacts .container .contact-methods, .contacts .container .questions {
-        margin-left: 10px;
-        width: 300px;
-    }
-    .contacts .container .questions button {
-        margin-left: 55px;
-    }
-    .sign-up {
-        width: 75.8%;
-        margin-left: 0px;
-        margin-top: 162px;
-        padding: 50px;
-        background-color: #3882f6;
-    }
-    .sign-up-form {
-        width: 260px;
-    }
-    form input,
-    form textarea,
-    form button {
-    display: block;
-    width: 200px;
-    
-    }
     footer, .footer-about, .footer-sign-up {
         width: 100%;
         margin-left: 0;
@@ -894,22 +490,7 @@ footer {
     
 }
 @media (max-width: 415px){
-    .sign-up {
-        width: 74.8%;
-    }
-    .sign-up .container {
-        margin-left: 2px;
-    }
-    .locations {
-        width: 298px;
-    }
-    .locations .container div, .locations .container figure div:nth-of-type(1){
-        margin-left: 10px;
-    }
-    .contacts .container .contact-methods, .contacts .container .questions {
-        margin-left: 7px;
-        width: 300px;
-    }
+    /* reference for media queries on other pages */
 }
 @media (max-width: 391px){
     header {
@@ -920,51 +501,18 @@ footer {
         margin-left: 42px;
         margin-right: 10px;
     }
-   
-    .locations {
-        width: 274px;
-    }
-    .locations .container h2 {
-        margin-right: 20px;
-    }
-    .locations .container div, .locations .container figure div:nth-of-type(1){
-        margin-left: 0;
-    }
     .action {
         margin-bottom: 10px;
     }
     .call-to-action {
         margin-bottom: 0;
     }
-    .contacts {
-        width: 94.6%;
-    }
-    .contacts h1 {
-        visibility: hidden;
-    }
-    .contacts .container .contact-methods, .contacts .container .questions {
-        margin-left: 1px;
-        width: 285px;
-    }
-    .sign-up {
-        width: 73.2%;
-        background-color: #3882f6;
-    }
-    .sign-up .container {
-        margin-left: -8px;
-        /* margin-right: 15px; */
-    }
     footer {
         margin-top: 0;
     }
 }
 @media (max-width: 385px){
-    .sign-up {
-        width: 72.8%;
-    }
-    .locations {
-        width: 268px;
-    }
+    /* reference for media queries on other pages */
 }
 @media (max-width: 377px){
     header {
@@ -981,61 +529,14 @@ footer {
    .about .container span button {
     margin-left: 80px;
    }
-   .hero-content {
-    margin-top: 40px;
-    margin-bottom: 10px;
-   }
-   .locations {
-    width: 259px;
-   }
-   .locations .container h2 {
-    margin-right: 28px;
-   }
-   .locations .container div, .locations .container figure div:nth-of-type(1){
-    margin-left: -8px;
-   }
-   .contacts {
-    width: 94.4%;
-   }
-   .contacts .container .contact-methods, .contacts .container .questions {
-    margin-left: 1px;
-    width: 270px;
-   }
-   .sign-up {
-    width: 72.2%;
-    background-color: #3882f6;
-   }
-   .sign-up .container {
-    margin-left: -15px;
-    /* margin-right: 15px; */
-   }
 }
 @media (max-width: 361px){
     header {
         margin-right: 5px;
         width: 95.6%;
     }
-    .locations {
-        width: 244px;
-    }
-    .locations .container h2 {
-        margin-right: 49px;
-    }
-    .locations .container div, .locations .container figure div:nth-of-type(1){
-        margin-left: -16px;
-    }
     .reviews {
         width: 95.4%;
-    }
-    .contacts .container .contact-methods, .contacts .container .questions {
-        margin-left: 1px;
-        width: 256px;
-       }
-    .sign-up {
-        width: 71%;
-    }
-    .sign-up .container {
-        margin-left: -22px;
     }
 
 }
