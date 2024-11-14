@@ -301,7 +301,57 @@ footer {
 
 
 }
+@media (max-width: 1025px){
+    header {
+        width: 82%;
+        margin-left: 5rem;
+        
+    }
+    header .container{
+        width: 52%;
+    }
 
+    nav {
+        gap: 13rem;
+    }
+    nav ul {
+        gap: 10px;
+        max-width: 100%;
+    }
+    nav ul a {
+        color: #E5e7eb;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    
+    }
+    .about {
+        width: 83.3%;
+        margin-left: 5rem;
+    }
+    .about span div {
+        width: 900px;
+        margin-left: 3rem;
+    }
+    .about span img {
+        width: 900px;
+        height: 220px;
+        margin-left: 50px;
+        margin-top: 30px;
+    
+    }
+    .reviews .container {
+        width: 82%;
+        padding-left: 50px;
+        margin-left: 70px;
+    }
+    .reviews p {
+        font-size: 18px;
+        width: 50%;
+        text-align: center;
+        padding-left: 125px;
+    }
+}
 @media (max-width: 811px){
     
     header {
@@ -396,7 +446,10 @@ footer {
     }
 }
 @media (max-width: 801px){
-    /* reference for media queries on other pages */
+    .about {
+        width: 83.75%;
+        padding-top: 50px;
+    }
 }
 @media (max-width: 601px){
     header {
