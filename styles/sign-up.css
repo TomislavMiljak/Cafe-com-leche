@@ -149,7 +149,61 @@ footer {
 
 
 }
-
+@media (max-width: 1025px){
+    header {
+        margin-top: 0;
+        margin-left: 6rem;
+        margin-right: 5px;
+        width: 79%;
+        top: 0;
+        position: fixed;
+        z-index: 1000;
+        
+    }
+    nav {
+        gap: 3rem;
+        margin-top: 15px;
+        margin-left: 0;
+     
+    }
+    .sign-up {
+        width: 70.3%;
+        margin-top: 132px;
+        margin-left: 96px;
+        padding: 50px;
+        background-color: #3882f6;
+    }
+    .sign-up h1 {
+        margin-right: 15px;
+    }
+    .sign-up .container {
+        margin-left: 80px;
+    }
+    .sign-up-form {
+        background-color: #1f2937;
+        width: 500px;
+        color: #E5E7EB;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 127px;
+        padding: 16px;
+        border-radius: 8px;
+        
+    
+    }.sign-up-form button {
+        margin-left: 1px;
+        background-color: #3882f6;
+        color: white;
+        font-weight: bold;
+    }
+    
+    footer, .footer-about {
+        width: 83%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-left: 67px;
+    }
+}
 @media (max-width: 811px){
     
     header {

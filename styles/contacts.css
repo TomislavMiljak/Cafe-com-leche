@@ -198,7 +198,54 @@ footer {
 
 
 }
+@media (max-width: 1025px){
+   header {
+        margin-top: 0;
+        width: 79%;
+        margin-left: 6rem;
+        top: 0;
+        position: fixed;
+        z-index: 1000;
+   } 
+   nav {
+       gap: 3rem;
+       margin-top: 15px;
+       margin-left: 0;
+    
+   }
+   .contacts {
+    width: 78.2%;
+    padding: 10px;
+    margin-left: 96.3px;
+    margin-right: 10px;
+}
+.contacts .container {
+    flex-direction: column;
+    width: 83%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.contacts .container .questions {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contacts .container .contact-methods {
+    margin-left: 70px;
+    width: 550px;
+}
 
+footer, .footer-about {
+    width: 83%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 67px;
+}
+}
 @media (max-width: 811px){
     
     header {
