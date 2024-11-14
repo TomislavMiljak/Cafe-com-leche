@@ -17,9 +17,14 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    width: 83%;
-    margin-top: 8rem;
+    width: 82.15%;
+    /* margin-top: 8rem; */
     margin-left: 8rem;
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+    z-index: 1000; /* Keep the header on top */
+
 
 
 }
@@ -29,6 +34,7 @@ header img {
     width: 70px;
     margin-top: 30px;
     border: none;
+    border-radius: 10px;
     margin-bottom: 20px;
 
 }
@@ -177,6 +183,7 @@ footer {
     header {
         margin-left: 68px;
         margin-right: 82px;
+        width: 81.15%;
     }
     header .container{
         width: 52%;
@@ -187,13 +194,15 @@ footer {
         
     }
     nav img {
-        margin-top: 45px;
+        margin-top: 65px;
     }
     nav ul {
         flex-direction: column;
         margin-right: -7.5rem;
         align-items: center;
         gap: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     } 
     .hero {
         margin-left: 68px;    
@@ -373,7 +382,7 @@ footer {
         margin-bottom: 50px;
     }
     .locations {
-        width: 297px;
+        width: 296px;
     }
     .locations .container div, .locations .container figure div:nth-of-type(1){
         margin-left: 5px;
@@ -390,9 +399,11 @@ footer {
         margin-right: 5px;
         width: 96%;
     }
-   
+    nav {
+        gap: 3rem;
+    }
     .locations {
-        width: 277px;
+        width: 274px;
     }
     .locations .container h2 {
         margin-right: 20px;
@@ -434,29 +445,43 @@ footer {
    .locations .container img {
     width: 180px;
     height: 180px;
-}
+   }
 }
 @media (max-width: 362px){
     header {
-        margin-right: 5px;
-        width: 93.6%;
+        /* margin-right: 5px; */
+        width: 95.5%;
     }
     nav {
         margin-left: -33px;
     }
+    /* .hero {
+
+    } */
     .hero-content {
         margin-top: 40px;
         margin-bottom: 30px;
        }
     .locations {
-        width: 248px;
+        width: 244px;
+    }
+    .locations .container {
+        width: 300px;
     }
     .locations .container h2 {
         margin-right: 49px;
         margin-left: 60px;
     }
     .locations .container div, .locations .container figure div:nth-of-type(1){
-        margin-left: -12px;
+        margin-left: -30px;
+    }
+    .locations .container figure {
+        gap: 50px;
+        width: 50%;
+    }
+    .locations .container img {
+        width: 160px;
+        height: 160px;
     }
     footer {
         width: 93.6%;

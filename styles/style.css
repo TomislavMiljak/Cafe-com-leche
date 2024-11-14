@@ -18,9 +18,14 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    width: 83%;
-    margin-top: 8rem;
+    width: 82.1%;
+    /* margin-top: 8rem; */
     margin-left: 8rem;
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+    z-index: 1000; /* Keep the header on top */
+
 
 
 }
@@ -30,6 +35,7 @@ header img {
     width: 70px;
     margin-top: 30px;
     border: none;
+    border-radius: 10px;
     margin-bottom: 20px;
 
 }
@@ -71,9 +77,10 @@ nav ul a {
     height: calc(30vh + 10px);
     padding-top: 40px;
     padding-bottom: 130px;
-    width: 83%;
+    width: 82.95%;
     margin-left: 8rem;
     margin-right: 15rem;
+    margin-top: 116px;
 }
 
 .about span {
@@ -207,7 +214,7 @@ figcaption {
 .reviews .container {
     background-color: #e5e7eb;
     margin-bottom: 32px;
-    margin-left: 130px;
+    margin-left: 129px;
     padding-left: 150px;
     padding-top: 50px;
     padding-bottom: 50px;
