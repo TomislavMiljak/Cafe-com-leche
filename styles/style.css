@@ -320,7 +320,7 @@ footer {
         max-width: 100%;
     }
     nav ul li:last-child{
-        width: 100px;
+        width: 75px;
     }
     nav ul a {
         color: #E5e7eb;
