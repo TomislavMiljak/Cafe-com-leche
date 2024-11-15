@@ -473,10 +473,18 @@ footer {
 @media (max-width: 801px){
     header {
         width: 82.1%;
+        
+    }
+    header .container{
+        width: 53%;
+        margin-left: 130px;
     }
     .about {
         width: 83.75%;
         padding-top: 50px;
+    }
+    .about .container span div {
+        margin-left: 50px;
     }
 }
 @media (max-width: 601px){
