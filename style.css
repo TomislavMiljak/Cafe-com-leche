@@ -654,7 +654,9 @@ footer {
     }
 }
 @media (max-width: 385px){
-    /* reference for media queries on other pages */
+    header {
+        width: 95.8%;
+    }
 }
 @media (max-width: 377px){
     header {

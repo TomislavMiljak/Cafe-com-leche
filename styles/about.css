@@ -197,7 +197,7 @@ footer {
         max-width: 100%;
     }
     nav ul li:last-child{
-        width: 100px;
+        width: 70px;
     }
     nav ul a {
         color: #E5e7eb;
@@ -255,6 +255,7 @@ footer {
         margin-left: 79px;
     }
 }
+
 @media (max-width: 811px){
     
     header {
@@ -493,10 +494,18 @@ footer {
     }
 }
 @media (max-width: 385px){
+    header {
+        width: 95.8%;
+    }
+    .hero-content {
+       margin-top: 60px;
+        
+    }
     .locations {
         width: 268px;
     }
 }
+
 @media (max-width: 377px){
     header {
         margin-right: 5px;
