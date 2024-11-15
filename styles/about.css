@@ -325,7 +325,27 @@ footer {
 }
 @media (max-width: 801px){
     .locations {
-        width: 70.3%;
+        width: 70.6%;
+    }
+    .locations .container div, .locations .container figure div:nth-of-type(1) {
+        width: 120px;
+        margin-left: -15px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .locations .container h2 {
+        margin-left: 205px;
+    }
+    .locations .container h3 {
+        margin-left: -35px;
+    }
+    .locations .container p {
+        font-size: 10px;
+        width: 70px;
+        margin-left: 20px;
+    }
+    .footer-about {
+        width: 83.5%;
     }
 }
 @media (max-width: 601px){

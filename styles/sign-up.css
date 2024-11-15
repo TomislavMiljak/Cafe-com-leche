@@ -17,13 +17,10 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    /* width: 83%; */
-    /* margin-top: 8rem; */
     width: 82.15%;
     margin-left: 8rem;
     position: fixed;
     top: 0;
-    /* width: 100%; */
     z-index: 1000; /* Keep the header on top */
 
 
@@ -149,6 +146,8 @@ footer {
 
 
 }
+
+
 @media (max-width: 1025px){
     header {
         margin-top: 0;
@@ -265,10 +264,14 @@ footer {
     }
 }
 @media (max-width: 801px){
+    header {
+        width: 81.3%;
+    }
     .sign-up {
         width: 70.2%;
     }
 }
+
 @media (max-width: 601px){
     header {
         margin-top: 0;

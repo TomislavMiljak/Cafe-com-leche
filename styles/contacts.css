@@ -302,8 +302,14 @@ footer, .footer-about {
     }
 }
 @media (max-width: 801px){
+    header {
+        width: 81.3%;
+    }
     .contacts {
         width: 80.4%;
+    }
+    .contacts .container .contact-methods {
+        width: 500px;
     }
 }
 @media (max-width: 601px){
