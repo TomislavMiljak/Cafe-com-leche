@@ -545,12 +545,18 @@ footer {
     margin-right: 28px;
     margin-left: 70px;
    }
+   .locations .container h3 {
+    margin-left: 15px;
+   }
    .locations .container div, .locations .container figure div:nth-of-type(1){
     margin-left: -18px;
    }
    .locations .container img {
     width: 180px;
     height: 180px;
+   }
+   .locations .container p {
+    margin-left: 70px;
    }
 }
 @media (max-width: 362px){
