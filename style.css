@@ -643,7 +643,18 @@ footer {
     
 }
 @media (max-width: 415px){
-    /* reference for media queries on other pages */
+    nav {
+        margin-left: -50px;
+    }
+    .about .container span div {
+        margin-left: 0px;
+    }
+   .about .container span div h1 {
+        margin-bottom: 5px;
+   }
+   .about .container span button {
+    margin-left: 88px;
+   }
 }
 @media (max-width: 394px){
     header {
@@ -675,9 +686,11 @@ footer {
         width: 95.8%;
     }
     nav {
-        margin-left: -15px;
+        margin-left: -55px;
     }
-    
+    .about .container span div {
+        margin-left: 0px;
+    }
    .about .container span div h1 {
         margin-bottom: 5px;
    }

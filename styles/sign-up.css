@@ -369,13 +369,13 @@ footer {
         margin-left: 2px;
     }
 }
-@media (max-width: 391px){
+@media (max-width: 394px){
     header {
         margin-right: 5px;
         width: 96%;
     }
     .sign-up {
-        width: 73.2%;
+        width: 73.5%;
         background-color: #3882f6;
     }
     .sign-up .container {

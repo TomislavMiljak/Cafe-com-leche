@@ -488,8 +488,11 @@ footer {
     .locations .container h2 {
         margin-left: 90px;
     }
-    .locations .container h3, .locations .container p {
-        margin-left: 2px;
+    .locations .container h3 {
+        margin-left: 15px;
+    }
+     .locations .container p {
+        margin-left: 72px;
     }
 }
 @media (max-width: 394px){
@@ -501,7 +504,7 @@ footer {
         gap: 3rem;
     }
     .locations {
-        width: 274px;
+        width: 277px;
     }
     .locations .container h2 {
         margin-right: 20px;

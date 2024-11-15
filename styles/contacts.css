@@ -409,13 +409,16 @@ footer, .footer-about {
         width: 300px;
     }
 }
-@media (max-width: 391px){
+@media (max-width: 394px){
     header {
         margin-right: 5px;
         width: 96%;
     }
     .contacts {
         width: 94.6%;
+    }
+    .contacts .container {
+        width: 81%;
     }
     .contacts h1 {
         visibility: hidden;
