@@ -471,6 +471,9 @@ footer {
     }
 }
 @media (max-width: 801px){
+    header {
+        width: 82.1%;
+    }
     .about {
         width: 83.75%;
         padding-top: 50px;
