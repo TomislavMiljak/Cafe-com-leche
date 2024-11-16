@@ -3,18 +3,24 @@
 
 body {
     font-family: Roboto, sans-serif;
-    width: 100%;
+    width: 99%;
+    position: absolute;
+    margin-left: 0;
 }
 
-.container {
+/* .container {
     max-width: 1280px;
     width: 100%;
     margin-left: 5rem;
-}
+} */
 
 
 /* HEADER AND ABOUT SECTION*/
-
+main {
+    width: 100%;
+    position: absolute;
+    margin-left: 0;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -33,6 +39,7 @@ header img {
     height: 70px;
     width: 70px;
     margin-top: 30px;
+    margin-left: 15vw;
     border: none;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -45,25 +52,22 @@ header img {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    gap: 27rem;
-    margin-left: 3.5rem;
+    width: 60vw;
+    margin-left: 4rem;
     
 }
 
-nav ul {
-    max-width: 100%;
+nav {
     display: flex;
-    justify-content: center;
-    gap: 24px;
-    list-style: none;
-    margin-top: 50px;
-    margin-right: 7.5rem;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-right: 15vw;
+    gap: 14px;
     font-style: italic;
     
 }
 
-nav ul a {
+nav a {
     color: #E5e7eb;
     font-size: 20px;
     text-decoration: none;
@@ -71,54 +75,62 @@ nav ul a {
 
 }
 
-.about {
+.hero {
+    display: flex;
+    justify-content: center;
+    padding-left: 12vw;
+    padding-right: 8vw;
     background-color: #1f2937;
-    height: calc(30vh + 10px);
+    /* height: calc(30vh + 10px); */
+    height: fit-content;
     padding-top: 40px;
     padding-bottom: 130px;
-    width: 100%;
+    width: 80.6%;
     margin-top: 116px;
+    
 }
 
-.about span {
+
+.hero div {
     display: flex;
-    color: white;
-    gap: 24px;
-    text-align: start;
-}
-.about span div {
-    width: 100%;
+    flex-direction: column;
+    width: 80%;
     margin-left: 3rem;
 }
 
-.about span img {
-    width: 750px;
-    height: 220px;
-    margin-left: 50px;
+.hero img {
+    width: 80%;
+    height: 35vh;
     margin-top: 30px;
+    align-self: center;
+    
 
 }
-.about h1 {
+.hero h1 {
     font-size: 48px;
     font-weight: bolder;
     font-family: "Roboto, sans-serif";
     margin-left: 0;
     margin-bottom: 0;
     padding-bottom: 0;
+    font-size: 48px;
+    color: white;
 
 }
-.about p {
+.hero p {
     text-align: start;
     margin-top: 0;
     font-family: "Roboto, sans-serif";
-    font-size: 18px;
+    font-size: 20px;
+    color: white;
+    max-width: 400px;
 }
 
-.about a {
+.hero div a {
     text-decoration: none;
 }
 
-.about button {
+.hero div button {
     display: flex;
     justify-content: center;
     background-color: #3882f6;
@@ -155,8 +167,8 @@ nav ul a {
     justify-content: center;
     gap: 0.25em;
     align-items: center;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    /* overflow-x: auto;
+    scroll-snap-type: x mandatory; */
 
 }
 
@@ -206,10 +218,12 @@ figcaption {
 /*REVIEW SECTION*/
 
 .reviews {
-    width: 100%;
+    background-color: #e5e7eb;
+    width: 101%;
     margin-bottom: 80px;
+
 }
-.reviews .container {
+/* .reviews .container {
     background-color: #e5e7eb;
     margin-bottom: 32px;
     margin-left: 0;
@@ -224,15 +238,19 @@ figcaption {
 .reviews .container div {
     background-color:#E5E7EB;
     width: 100%;
-}
+} */
 
-.reviews p {
+.reviews blockquote {
+    display: flex;
+    flex-direction: column;
     font-size: 25px;
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
-    padding-left: 90px;
-
+    padding: 6vw 10vw;
+}
+.reviews blockquote p:last-child{
+    align-self: flex-end;
 }
 
 /*ACTION*/
@@ -246,8 +264,8 @@ figcaption {
     padding: 8px;
     text-align: center;
     width: 61vw;
-    margin-left: 270px;
-    margin-right: 280px;
+    margin-left: 20vw;
+    margin-right: 10vw;
     margin-bottom: 80px;
     color: white;
     border-radius: 5px;
@@ -274,7 +292,7 @@ figcaption {
 }
 .call-to-action {
     text-align: start;
-    padding-left: 4rem;
+    padding: 1rem 1rem;
     width: 40vw;
 }
 .call-to-action h4 {
@@ -294,12 +312,92 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    width: 100%;
+    width: 101%;
     margin-top: 70px;
-    margin-bottom: 180px;
+    margin-bottom: 0;
 
 
-}/* 
+}
+@media (max-width: 1400px) {
+    header, footer, .reviews {
+        width: 101%;
+    }
+}
+
+@media (max-width: 1080px){
+    header, footer, .reviews {
+        width: 105%;
+    }
+    header {
+        gap: 20vw;
+    }
+    header nav {
+        flex-direction: column; /* Stack navigation links */
+        justify-content: center;
+        align-items: center; /* Center align */
+    }
+    .hero {
+        flex-direction: column;
+        width: 83%;
+    }
+    .hero div {
+        align-items: center;
+        text-align: center;
+    }
+    .hero img {
+        order: -1;
+    }
+}
+@media (max-width: 768px) {
+    header, footer, .reviews {
+        width: 105%;
+    }
+    header {
+        padding-left: 3.8rem;
+        padding-right: 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 32px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .scroll-Container {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .action {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .action button {
+        align-self: center;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .call-to-action {
+        text-align: center;
+        padding-left: 0;
+    }
+    
+}
+@media (max-width: 625px){
+    header {
+        gap: 0;
+        justify-content: center;
+    }
+}
+@media (max-width: 510px){
+
+}
+/* 
 @media (max-width: 1025px){
     header {
         width: 82%;
