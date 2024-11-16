@@ -3,11 +3,12 @@
 
 body {
     font-family: Roboto, sans-serif;
+    width: 100%;
 }
 
 .container {
     max-width: 1280px;
-    width: 83%;
+    width: 100%;
     margin-left: 5rem;
 }
 
@@ -18,12 +19,10 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    width: 82.1%;
-    /* margin-top: 8rem; */
-    margin-left: 8rem;
+    width: 100%;
     position: fixed;
     top: 0;
-    /* width: 100%; */
+    
     z-index: 1000; /* Keep the header on top */
 
 
@@ -46,20 +45,20 @@ header img {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 83%;
-    gap: 25rem;
+    width: 100%;
+    gap: 27rem;
     margin-left: 3.5rem;
     
 }
 
 nav ul {
-    max-width: 83%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     gap: 24px;
     list-style: none;
     margin-top: 50px;
-    margin-right: -7.5rem;
+    margin-right: 7.5rem;
     font-style: italic;
     
 }
@@ -77,9 +76,7 @@ nav ul a {
     height: calc(30vh + 10px);
     padding-top: 40px;
     padding-bottom: 130px;
-    width: 82.95%;
-    margin-left: 8rem;
-    margin-right: 15rem;
+    width: 100%;
     margin-top: 116px;
 }
 
@@ -90,7 +87,7 @@ nav ul a {
     text-align: start;
 }
 .about span div {
-    width: 700px;
+    width: 100%;
     margin-left: 3rem;
 }
 
@@ -209,20 +206,24 @@ figcaption {
 /*REVIEW SECTION*/
 
 .reviews {
+    width: 100%;
     margin-bottom: 80px;
 }
 .reviews .container {
     background-color: #e5e7eb;
     margin-bottom: 32px;
-    margin-left: 129px;
-    padding-left: 150px;
+    margin-left: 0;
+    padding-left: 100px;
+    padding-right: 130px;
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 73%;
+    width: 100%;
+    
 
 }
 .reviews .container div {
     background-color:#E5E7EB;
+    width: 100%;
 }
 
 .reviews p {
@@ -230,7 +231,6 @@ figcaption {
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
-    width: 800px;
     padding-left: 90px;
 
 }
@@ -294,13 +294,12 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    width: 83%;
+    width: 100%;
     margin-top: 70px;
-    margin-left: 127px;
     margin-bottom: 180px;
 
 
-}
+}/* 
 @media (max-width: 1025px){
     header {
         width: 82%;
@@ -707,4 +706,4 @@ footer {
         width: 95.4%;
     }
 
-}
+} */
