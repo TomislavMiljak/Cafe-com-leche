@@ -192,10 +192,11 @@ footer {
 }
 @media (max-width: 360px){
     header {
-        gap: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        gap: 3vw;
+        padding-left: 5vw;
+        /* padding-right: 10px; */
     }
+
     .hero-content :nth-child(2) {
         display: none;
     }

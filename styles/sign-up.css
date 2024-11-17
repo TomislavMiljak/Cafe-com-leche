@@ -82,7 +82,7 @@ textarea {
     width: 100%;
     padding: 50px;
     background-color: #3882f6;
-    padding-top: 252px;
+    padding-top: 222px;
 }
 .sign-up h1 {
     font-size: 48px;
@@ -192,10 +192,11 @@ footer {
 }
 @media (max-width: 360px){
     header {
-        gap: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        gap: 3vw;
+        padding-left: 5vw;
+        /* padding-right: 10px; */
     }
+
     .hero-content :nth-child(2) {
         display: none;
     }
