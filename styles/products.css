@@ -24,7 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     top: 0;
-    width: 82.15%;
+    width: 100%;
     padding: 1.9rem;
     padding-left: 8.5rem;
     padding-right: 8rem;
@@ -170,7 +170,6 @@ footer {
     background-color: #1f2937;
     color: #fff;
     width: 100%;
-    width: 82.15%;
 }
 
 /* Media Queries for Responsiveness */
