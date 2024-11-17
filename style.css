@@ -347,6 +347,11 @@ footer {
     }
     
 }
+@media (max-width: 480px) {
+    header nav a {
+        font-size: 20px; 
+    }
+}
 @media (max-width: 380px){
     
     .info-section h2 {
