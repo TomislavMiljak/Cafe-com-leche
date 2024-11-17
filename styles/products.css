@@ -60,7 +60,7 @@ header nav a {
 
 /* Product Section */
 .product-section {
-    margin-top: 150px; /* Space to avoid header overlap */
+    margin-top: 222px; /* Space to avoid header overlap */
     padding: 2rem;
     width: 100%;
     max-width: 1200px;

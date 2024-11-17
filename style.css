@@ -16,7 +16,6 @@ body {
     color: #333;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -28,7 +27,7 @@ header {
     padding-right: 13vw;
     background-color: #1f2937;
     position: fixed;
-    z-index: 1000; /* Keep the header on top */
+    z-index: 1000;
 }
 
 header picture img {
@@ -43,7 +42,7 @@ header picture img {
 
 header nav {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap */
+    flex-wrap: wrap; 
 }
 
 header nav a {
@@ -61,7 +60,6 @@ header nav a {
     padding-left: 12vw;
     padding-right: 8vw;
     background-color: #1f2937;
-    /* height: calc(30vh + 10px); */
     height: fit-content;
     padding-top: 40px;
     padding-bottom: 130px;
@@ -155,8 +153,6 @@ header nav a {
     justify-content: center;
     gap: 0.25em;
     align-items: center;
-    /* overflow-x: auto;
-    scroll-snap-type: x mandatory; */
 
 }
 
@@ -203,8 +199,6 @@ figcaption {
 }
 
 
-/*REVIEW SECTION*/
-
 .reviews {
     background-color: #e5e7eb;
     width: 100%;
@@ -227,7 +221,6 @@ figcaption {
     align-self: flex-end;
 }
 
-/*ACTION*/
 
 .action {
     margin: 2rem auto;
@@ -290,9 +283,9 @@ footer {
         padding-right: 3rem;
     }
     header nav {
-        flex-direction: column; /* Stack navigation links */
+        flex-direction: column; 
         justify-content: center;
-        align-items: center; /* Center align */
+        align-items: center;
     }
     .hero {
         flex-direction: column;
@@ -338,25 +331,6 @@ footer {
         margin-top: 1rem;
         width: 100%;
     }
-    /* .action {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-left: 0;
-        margin-top: 5px;
-    }
-    .action button {
-        align-self: center;
-        margin-left: 0;
-        margin-right: 10px;
-    }
-    .call-to-action {
-        text-align: center;
-        padding-left: 0;
-    } */
-    
 }
 @media (max-width: 625px){
     header {
