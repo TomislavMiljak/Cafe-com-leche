@@ -339,6 +339,9 @@ footer {
         gap: 0;
         justify-content: space-between;
     }
+    .info-section {
+        margin-left: 0;
+    }
     .reviews blockquote {
         font-size: 16px;
     }
