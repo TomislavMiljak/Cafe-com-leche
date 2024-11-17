@@ -18,7 +18,7 @@ body {
     color: #333;
 }
 
-/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@ header {
     padding-right: 13vw;
     background-color: #1f2937;
     position: fixed;
-    z-index: 1000; /* Keep the header on top */
+    z-index: 1000; 
 }
 
 header picture img {
@@ -45,7 +45,7 @@ header picture img {
 
 header nav {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap */
+    flex-wrap: wrap; 
 }
 
 header nav a {
@@ -58,9 +58,9 @@ header nav a {
     font-size: 20px;
 }
 
-/* Product Section */
+
 .product-section {
-    margin-top: 222px; /* Space to avoid header overlap */
+    margin-top: 222px; 
     padding: 2rem;
     width: 100%;
     max-width: 1200px;
@@ -85,8 +85,8 @@ header nav a {
     align-items: flex-start;
     padding: 1rem;
     background-color: #fff;
-    border-radius: 8px; /* Added for rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .product-list li figure {
@@ -102,7 +102,7 @@ header nav a {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border: 2px solid #2563eb; /* Blue border around each product */
+    border: 2px solid #2563eb; 
     border-radius: 10px;
 }
 
@@ -123,11 +123,11 @@ header nav a {
 
 .product-list li .price {
     font-weight: bold;
-    color: #2563eb; /* Highlighted price color */
+    color: #2563eb; 
     margin-top: 0.5rem;
 }
 
-/* Call to Action Section */
+
 .action {
     margin: 2rem auto;
     padding: 1.5rem 2rem;
@@ -168,7 +168,7 @@ header nav a {
     background-color: #196cf2;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 1rem;
@@ -177,7 +177,7 @@ footer {
     width: 100%;
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 1400px) {
     header, footer {
         width: 100%;
@@ -190,31 +190,31 @@ footer {
         padding-right: 3rem;
     }
     header nav {
-        flex-direction: column; /* Stack navigation links */
+        flex-direction: column; 
         justify-content: center;
-        align-items: center; /* Center align */
+        align-items: center;
     }
 }
 @media (max-width: 768px) {
 
     .product-list {
-        flex-direction: column; /* Stack product items */
+        flex-direction: column; 
     }
 
     .product-list li {
-        flex-direction: column; /* Stack image and text */
-        align-items: center; /* Center align */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .product-list li figure {
-        flex-direction: column; /* Stack image and caption */
-        align-items: center; /* Center align */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .product-list li img {
-        width: 100%; /* Full width on smaller screens */
-        max-width: 200px; /* Limit width */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%; 
+        max-width: 200px; 
+        height: auto; 
     }
     
     .action {
@@ -238,7 +238,7 @@ footer {
 }
 @media (max-width: 480px) {
     header nav a {
-        font-size: 20px; /* Adjust font size for small screens */
+        font-size: 20px; 
     }
 }
 @media (max-width: 280px){
